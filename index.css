@@ -11,7 +11,7 @@ iframe {
 
 #oldWebsite {
   width: 80vw;
-  height: 100vh;
+  height: calc(100vh + 40vh);
   display: block;
   text-align: center;
   margin: auto;
