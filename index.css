@@ -5,8 +5,9 @@ body {
 }
 
 iframe {
-  width: 60vw;
+  width: 80vw;
   height: 100vh;
+  display: block;
   text-align: center;
 }
 
