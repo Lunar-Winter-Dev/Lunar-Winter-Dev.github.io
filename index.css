@@ -7,3 +7,9 @@ iframe {
   width: 90vw;
   height: auto;
 }
+
+
+.text {
+  font-size: 3em;
+  font-weight: bold;
+}
