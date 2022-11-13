@@ -1,0 +1,9 @@
+body {
+  background-color: black;
+  color: whitesmoke;
+}
+
+iframe {
+  width: 90vw;
+  height: auto;
+}
