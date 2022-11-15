@@ -2,7 +2,7 @@ body {
   background-image: url("old_crjase_background.jpg");
   background-color: black;
   color: whitesmoke;
-  font-face: sans-serif;
+  font-family: sans-serif;
 }
 
 iframe {
