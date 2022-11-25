@@ -1,0 +1,25 @@
+body {
+    background: #445;
+    color: #77a;
+    margin: 0px;
+}
+
+#bar {
+    display: flex;
+    align-items: center;
+    --hovering: true;
+}
+
+.item {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 4px;
+    transition: 0.4s;
+    cursor: pointer;
+    }
+    .item:hover {
+    margin-top: 0px;
+    color: #fff;
+    font-size: 1.5em;
+}

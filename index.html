@@ -3,17 +3,21 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="templates/css/main.css">
+    <meta name="description" content="Hello ^_^">
     <link rel="icon" type="image/ico" sizes="48x48" href="favicon.ico">
+    <link rel="stylesheet" href="./static/index.css">
   </head>
   <body>
-    <object type="text/html" data="templates/html/navbar.html" style="height:30px;width:100%;"></object>
-    <h1 class="text" >Our (Not Owned Yet) Website</h1>
-    <a class="text" href="https://lunarwinter.dev">https://LunarWinter.dev</a>
-    <br><br><br><br>
-    <div id="oldWebsite">
-      <h1 class="text">Crjase's Old Website</h1>
-      <iframe src="https://crjase.github.io"></iframe>
+    <!--Class containing "load" will use laoder.js-->
+    <!--<object class="load navbar"></object>-->
+    <object id="navbar" type="text/html" data="./reusable/navbar/navbar.html" style="height:30px;width:100vw;"></object>
+    <!---->
+    <div class="container" id="centerElem">
+      <a class="text" href="https://lunarwinter.dev">Come Visit Our Main Website</a>
+      <h2>Or See What We've Made Here; The Navbar Is At The Top.</h2>
     </div>
+    <!--The loader.js loads resources from /Reusable-->
+    <script src="./reusable/loader.js"></script>
+    <!---->
   </body>
 </html>

@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.container {
+    background-color: rgb(20, 20, 20);
+    padding: 20px;
+}
+
+#centerElem {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 10px;
+    }
+    #centerElem>a {
+    color: cornflowerblue;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+#navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
